@@ -93,7 +93,7 @@ var movieSchedule = [
   ]
 //   Use a for loop to loop through the movies, build an HTML representation of each movie, and insert it into the #movie-schedule container in the DOM.
 for(var i = 0; i < movieSchedule.length; i++){
-    document.querySelector("#movie-schedule").innerHTML += `<h1>${movieSchedule[i].title}</h1> <h2>Rating: ${movieSchedule[i].rating}</h2> <h2>Currently Playing: ${movieSchedule[i].currentlyPlaying}</h2><img src=${movieSchedule[i].poster} alt="Movie Poster">`
+    document.querySelector("#movie-schedule").innerHTML += `<h1>${movieSchedule[i].title}</h1> <h2>Rated: ${movieSchedule[i].rating}</h2> <h2>Currently Playing: ${movieSchedule[i].currentlyPlaying}</h2><img src=${movieSchedule[i].poster} alt="Movie Poster">`
 }
 
 //   You can use any elements you like in your HTML string as long as all the data in the movieSchedule object is included.
